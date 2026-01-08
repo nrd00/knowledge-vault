@@ -106,3 +106,67 @@ nav ul li a {
   background-color: transparent;
   border: 1px solid;
 }
+
+#notes {
+  padding: 32px 0;
+}
+
+.section_title {
+  font-size: 48px;
+  font-weight: bold;
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.section-description {
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+  text-align: center;
+}
+
+.cards {
+  padding-top: 44px;
+  display: flex;
+  column-gap: 24px;
+  justify-content: space-between;
+}
+
+.card {
+  padding: 69px 24px;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-img {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: #f95555;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card h3 {
+  padding-top: 16px;
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--primary-color);
+}
+
+.card p {
+  font-size: 1rem;
+  color: #627382;
+  line-height: 20px;
+  text-align: center;
+  padding-top: 16px;
+}
