@@ -170,3 +170,35 @@ nav ul li a {
   text-align: center;
   padding-top: 16px;
 }
+
+#knowledge {
+  display: flex;
+  padding: 60px 0;
+}
+.knowledge-img {
+  min-width: 500px;
+}
+.knowledge-img img {
+  width: 100%;
+}
+.knowledge-text {
+  padding: 60px 30px;
+}
+.knowledge-text h6 {
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--secondary-color);
+  text-align: center;
+}
+.ideas-list {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+.knowledge-text p {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 2px;
+}
