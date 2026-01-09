@@ -53,6 +53,13 @@ nav ul li a {
   font-weight: 550;
   color: #fff;
   cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+  background: var(--primary-color);
+  box-shadow: 0 10px 25px rgba(99, 102, 241, 0.4);
 }
 
 #banner {
@@ -105,6 +112,12 @@ nav ul li a {
 .banner-btn > :nth-child(2) {
   background-color: transparent;
   border: 1px solid;
+}
+
+.banner-btn > :nth-child(2):hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  box-shadow: 0 10px 25px rgba(99, 102, 241, 0.4);
 }
 
 #notes {
